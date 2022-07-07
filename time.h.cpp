@@ -50,4 +50,5 @@ int main() {
 	clock_t end = clock();//记录循环结束时处理器时间
 	double second = double(end - start) / CLOCKS_PER_SEC;//将处理器时间转化为秒
 	cout << "\n运行该循环耗时:" << second << "s" << endl;
+	cin.get();
 }
